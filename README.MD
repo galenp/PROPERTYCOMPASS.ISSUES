@@ -3,6 +3,28 @@ Property Compass Issue Tracking
 
 Because the Property Compass platform is distributed across many, many repositories we will use this aggregated repository for internal issue tracking. (For Now)
 
+# Links
+ * Property Compass - [App](https://app.propertycompass.com.au)
+ * API Docs - [Swagger](http://api-docs.propertycompass.com.au/)
+ * Discussion - [Slack](https://landlordcentral.slack.com/messages/propertycompass/)
+ * Project Management - [ScrumDo](https://app.scrumdo.com/projects/property-compass/board#/view) 
+
+# How to reference an issue in a commit message?
+
+When committing code to reference an issue use the following:
+
+* `galenp/PROPERTYCOMPASS.ISSUES/<#issuenumber>`
+
+# How to reference a commit from another repository?
+The format GitHub users for smart commit linking is:
+`https://github.com/<username>/<reponame>/commit/<sha>`
+
+So for linking to commits from various Property Compass repos:
+
+* UI : `https://github.com/galenp/PROPERTYCOMPASS.APP/commit/<sha>`
+* Component: `https://github.com/galenp/PC.Component.<Component>/commit/<sha>`
+* Platform: `https://github.com/galenp/PC.Platform/commit/<sha>`
+
 
 # How to label an issue?
 
