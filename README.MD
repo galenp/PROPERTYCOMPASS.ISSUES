@@ -30,14 +30,14 @@ So for linking to commits from various Property Compass repos:
 
 
 #### 1. Select one type: 
-	* bug
-	* question
-	* suggestion
+	* bug - a broken piece of functionality or business process
+	* question - to discuss a feature or aspsect of the system
+	* suggestion - a discussion or report of an improvement to the system
 
 #### 2. Select one priority:
-	* low
-	* medium
-	* high
+	* low - work around possible, user experience is degraded
+	* medium - user experience is considerably impacted, work around possible 
+	* high - primary feature or function is not working with no work around
 
 #### 3. Developer will then respond with a Status
 	* confirmed
